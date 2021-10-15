@@ -3,5 +3,5 @@ def hello(name):
     ''' Greeter function
     '''
     print(f"Hello {name}!")
-
-hello("Kenneth")
+ 
+    
