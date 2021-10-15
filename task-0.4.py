@@ -6,3 +6,4 @@ def even_or_odd(integer):
         print('even')
     else:
         print('odd')
+        
