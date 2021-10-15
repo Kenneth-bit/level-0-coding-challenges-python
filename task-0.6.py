@@ -1,5 +1,5 @@
 #!/bin/python3
-def max_number(a, b, c):
+def maximum(a, b, c):
     ''' Returns the biggest of three numbers
     '''
     biggest = 0
@@ -9,3 +9,4 @@ def max_number(a, b, c):
         else:
             continue
     print(biggest)
+
