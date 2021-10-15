@@ -10,4 +10,4 @@ def maximum(*numbers):
             continue
     print(biggest)
 
-gc 
+ 
