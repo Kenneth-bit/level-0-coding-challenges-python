@@ -11,4 +11,3 @@ def vowels(string):
     print("Vowels = ", end='')
     print(*output, sep=', ')
 
-vowels("Umuzi")
