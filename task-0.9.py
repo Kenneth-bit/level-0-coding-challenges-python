@@ -8,6 +8,6 @@ def vowels(string):
         if letter in vowel_list and letter not in output:
             output.append(letter.lower())
             
-    print("Vowels = ", end='')
+    print("Vowels: ", end='')
     print(*output, sep=', ')
 
