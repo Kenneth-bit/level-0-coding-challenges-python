@@ -11,5 +11,6 @@ def convert_to_fahrenheit(celcius):
 def convert_to_celcius(fahrenheit):
     ''' Converts fahrenheit into celcius degrees
     '''
-    celcius = 5/9 * (fahrenheit - 32)
-    print(f"{celcius} C")
+    celcius =  5/9 * (fahrenheit - 32)
+    print(f"{round(celcius, 2)} C")
+
