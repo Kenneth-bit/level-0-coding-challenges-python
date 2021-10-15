@@ -31,3 +31,4 @@ def make_time(number):
             print(f"{m} minutes")
         elif m == 1:
             print(f"{m} minute")
+
