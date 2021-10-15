@@ -1,10 +1,11 @@
 #!/bin/python3
 def max_number(a, b, c):
-    ''' Returns the biggest of the three numbers
+    ''' Returns the biggest of three numbers
     '''
-    if a > b and a > c:
-        print(a)
-    elif b >= a and b >= c:
-        print(b)
-    else:
-        print(c)
+    biggest = 0
+    for number in a, b, c:
+        if number > biggest:
+            biggest = number
+        else:
+            continue
+    print(biggest)
