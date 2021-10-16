@@ -2,7 +2,8 @@
 def maximum(*numbers):
     ''' Returns the biggest of three numbers
     '''
-    biggest = 0
+
+    biggest = numbers[0]
     for number in numbers:
         if number > biggest:
             biggest = number
@@ -10,4 +11,4 @@ def maximum(*numbers):
             continue
     print(biggest)
 
- 
+maximum(-5, -7 ,-3, -90)
