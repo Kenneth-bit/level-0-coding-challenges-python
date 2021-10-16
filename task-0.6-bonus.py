@@ -11,4 +11,3 @@ def maximum(*numbers):
             continue
     print(biggest)
 
-maximum(-5, -7 ,-3, -90)
