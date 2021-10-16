@@ -1,7 +1,4 @@
 #!/bin/python3
-from typing import MutableMapping
-
-
 def maximum(a, b, c):
     ''' Returns the biggest of three numbers
     '''
