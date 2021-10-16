@@ -2,7 +2,7 @@
 def maximum(*numbers):
     ''' Returns the biggest of three numbers
     '''
-
+    
     biggest = numbers[0]
     for number in numbers:
         if number > biggest:
